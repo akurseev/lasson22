@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таймер</title>
+    <link rel="stylesheet" href="./style.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=JUWV5JBo_V5UoRhYH_fYv_2QVT2raqOloLPAP3aR9QSRVDt4NssjqTO20LjHSggZtJL1iWTblOUV4ajGp4rOqA" charset="UTF-8"></script></head>
+
+<body class="app">
+
+    <div id="timer" class="timer">
+
+        <form action="" class="timer__form">
+            <div class="timer__inputs">
+                <input class="timer__input" type="number" id="hours" placeholder="Ч" value="00" min="0" max="23">
+                :
+                <input class="timer__input" type="number" id="minutes" placeholder="М" value="10" min="0" max="59">
+                :
+                <input class="timer__input" type="number" id="seconds" placeholder="С" value="00" min="0"
+                    max="60">
+            </div>
+            <div class="timer__buttons">
+                <button class="button button__start" id="startButton">Старт</button>
+                <button class="button button__stop hide" id="stopButton">Стоп</button>
+            </div>
+        </form>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
